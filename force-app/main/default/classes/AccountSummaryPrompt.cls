@@ -2,7 +2,7 @@ public class AccountSummaryPrompt {
     //CapabilityType='PromptTemplateType://einstein_gpt__fieldCompletion'
     @InvocableMethod(label='Soft Drink Orders'
                      description='Find Soft Drink for Account'
-                     CapabilityType='PromptTemplateType://einstein_gpt__recordSummary')
+                     CapabilityType='PromptTemplateType://einstein_gpt__recordSummary') //testing the git commit
     public static List<Response> getSoftDrinkData(List<Request> requests) {
         // Validate the expected number of requests as an input
         if (requests.size() != 1)
